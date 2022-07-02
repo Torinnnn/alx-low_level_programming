@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char acharaccter;
+	char acharacter;
 	int ainteger;
 	long along;
 	long long alonglong;
