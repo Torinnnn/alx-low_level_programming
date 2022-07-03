@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - enter main
  * Description: This program will assign a random number to the variable n
