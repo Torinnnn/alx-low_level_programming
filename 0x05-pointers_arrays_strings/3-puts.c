@@ -1,19 +1,19 @@
 # include "main.h"
+# include <stdio.h>
 
 /**
  * _puts - function to print out string
  * @str: pointer passed as parameter
  *
- * Return: always 0
+ * Return: void
  */
 void _puts(char *str)
 {
-	int i = 0;
+	int a;
 
-	while (str[i] != '\0')
+	for (a = 0; str[a] != '\0'; a++)
 	{
-		i++;
-		_putchar(str[i]);
+		_putchar(str[a]);
 	}
 	_putchar('\n');
 }
