@@ -8,9 +8,13 @@
  */
 void print_rev(char *s)
 {
+	int i;
+
 	if (s[i] != '\0')
-	{print_rev(s + 1);
-		printf("%c", s[i]);
+	{
+		i = 0;
+		print_rev(s + 1);
+		_putchar(s[i]);
 	}
 	return (0);
 }
