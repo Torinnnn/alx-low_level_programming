@@ -6,17 +6,16 @@
  * puts_half - the function that prints half of a given string
  * @str: pointer argument
  *
- * Return: nothing.
+ * Return: always 0
  */
 void puts_half(char *str)
 {
 	int length = strlen(str);
 	int half = length / 2;
-	int i;
+	int i = length - 1;
 
 	while (str[i] <= half)
 	{
-		i = length - 1;
 		i--;
 		_putchar(str[i]);
 		if (length % 2 != 0)
