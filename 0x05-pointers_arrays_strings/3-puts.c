@@ -4,17 +4,16 @@
  * _puts - function to print out string
  * @str: pointer passed as parameter
  *
- * Return: nothing
+ * Return: always 0
  */
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	while (str[i] != '\0')
+	while (*str[i] != '\0')
 	{
-		i = 0;
+		i++;
 		_putchar(str[i]);
 	}
-	i++;
 	_putchar('\n');
 }
